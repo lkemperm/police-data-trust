@@ -1,4 +1,4 @@
-FROM python:3.8.11-slim-buster AS base
+FROM python:3.8.11 AS base
 
 RUN apt-get update && apt-get install curl -y
 

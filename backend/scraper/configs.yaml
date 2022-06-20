@@ -1,11 +1,11 @@
 resources:
-  varname_crosswalk: 'backend/scraper/varnames_crosswalk.csv'
+  varname_crosswalk: 'varnames_crosswalk.csv'
 
 sources:
-  mpv:
-      url: https://mappingpoliceviolence.org/s/MPVDatasetDownload.xlsx
-      type: news article
-      id: mpv_id
+  # mpv:
+  #     url: https://mappingpoliceviolence.org/s/MPVDatasetDownload.xlsx
+  #     type: news article
+  #     id: mpv_id
   cpdp:
       url: https://github.com/invinst/chicago-police-data/raw/master/data/unified_data.zip
       type: government record

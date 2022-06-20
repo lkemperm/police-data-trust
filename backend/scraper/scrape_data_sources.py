@@ -170,7 +170,7 @@ def make_all_tables():
     """
 
     # read configs
-    with open(r"backend/scraper/configs.yaml") as file:
+    with open(r"configs.yaml") as file:
         configs = yaml.load(file, Loader=yaml.FullLoader)
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
